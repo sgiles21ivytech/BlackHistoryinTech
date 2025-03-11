@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Hidden History of Black Tech :: Interactive Timeline</title>
+  <link rel="stylesheet" href="finalproject.css">
+</head>
+<body>
+  <header>
+    <h1>
+      <a href="home.html">Revealing the Hidden History of Black Tech in the United States</a>
+    </h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="pioneers.html">Pioneers in Tech</a></li>
+      <li><a href="contributions.html">Contributions to Computer Science</a></li>
+      <li><a href="interactive.html">Timeline</a></li>
+      <li><a href="resources.html">Resources & Further Learning</a></li>
+    </ul>
+  </nav>
+
+  <div id="content-wrapper">
+    <main>
+      <h2>Interactive Timeline</h2>
+      <p>Explore the major technological breakthroughs and inventions led by Black innovators from the 1800s to today.</p>
+
+      <!-- Timeline Container -->
+      <div id="timeline-container">
+          <div id="timeline-arrow"></div>
+          <div id="timeline-years">
+            <span class="year" id="year-1800s">1800s</span>
+            <span class="year" id="year-1900s">1900s</span>
+            <span class="year" id="year-1970s">1970s</span>
+            <span class="year" id="year-1990s">1990s</span>
+            <span class="year" id="year-2000s">2000s</span>
+          </div>
+      </div>
+
+
+      <!-- Timeline Legend (Clickable Table) -->
+      <table id="timeline-key">
+        <tr>
+          <th>Period</th>
+          <th>Key Figures & Contributions</th>
+        </tr>
+        <tr data-year="1800s">
+          <td>1800s</td>
+          <td>Granville T. Woods - Railway Telegraphs</td>
+        </tr>
+        <tr data-year="1900s">
+          <td>1900s</td>
+          <td>Otis Boykin - Pacemaker Components</td>
+        </tr>
+        <tr data-year="1970s">
+          <td>1970s</td>
+          <td>Valerie Thomas - Illusion Transmitter</td>
+        </tr>
+        <tr data-year="1990s">
+          <td>1990s</td>
+          <td>Lisa Gelobter - Web Animation & GIFs</td>
+        </tr>
+        <tr data-year="2000s">
+          <td>2000s</td>
+          <td>Dr. Ayanna Howard - Robotics & AI</td>
+        </tr>
+      </table>
+
+      <!-- Interactive Gallery -->
+      <div id="gallery">
+        <img id="gallery-image" src="images/default.jpg" alt="Historical Advancement">
+        <p id="gallery-text">Click a year on the timeline to see historical advancements.</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2025 The Hidden History of Black Tech. All rights reserved.</p>
+      <div id="contact-form">
+          <p>See something missing? Click here, we'd love to hear your feedback!</p>
+          <button id="contact-btn">Contact Us</button>
+
+          <div id="form-container" style="display:none;">
+            <form id="feedback-form" action="https://formspree.io/f/xrbeorwj" method="post" accept-charset="UTF-8" >
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <button type="submit">Submit Feedback</button>
+            </form>
+          </div>
+          </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="finalprojectscript.js"></script>
+</body>
+</html>
+
+
+

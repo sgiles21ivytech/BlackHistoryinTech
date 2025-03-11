@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden History of Black Tech</title>
+    <link rel="stylesheet" href="finalproject.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="home.html">Revealing the Hidden History of Black Tech in the United States</a>
+      </h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="pioneers.html">Pioneers in Tech</a></li>
+        <li><a href="contributions.html">Contributions to Computer Science</a></li>
+        <li><a href="interactive.html">Timeline</a></li>
+        <li><a href="resources.html">Resources & Further Learning</a></li>
+      </ul>
+    </nav>
+
+    <div id="content-wrapper">
+      <main>
+        <section id="introduction">
+          <h2>Introduction</h2>
+          <p>
+            Throughout history, Black innovators have played a crucial role in shaping the technological landscape, yet their contributions are often overlooked in mainstream narratives. From groundbreaking advancements in computer science to transformative inventions in software and hardware, Black pioneers have continuously driven progress in the field of technology.
+          </p>
+          <p>
+            This website is dedicated to uncovering the hidden history of Black technologists in the United States, celebrating their achievements, and recognizing their invaluable impact on the digital world we rely on today.
+          </p>
+        </section>
+
+        <!-- Slideshow Section -->
+          <div class="slideshow-container">
+            <div class="slide fade">
+              <figure>
+                <img src="marian-croak-at-technology-summit.png" alt="Marian Croak at Technology Summit" >
+                <figcaption>Marian R. Croak giving a keynote speech at the Women Techmakers Mountain View Summit in 2017. Photo courtesy Google.</figcaption>
+              </figure>
+            </div>
+            <div class="slide fade">
+              <figure>
+                <img src="lewis-howard-latimer.png" alt="Painting of Lewis Howard Latimer" >
+                <figcaption>The Black Inventor Who Improved the Light Bulb, Lewis Howard Latimer</figcaption>
+              </figure>
+            </div>
+            <div class="slide fade">
+              <figure>
+                <img src="shirley-ann-jackson-classroom.png" alt="Picture of Shirely Ann Jackson Teaching" >
+                <figcaption>Dr. Shirley Ann Jackson lecturing in a classroom. </figcaption>
+              </figure>
+            </div>
+            <div class="slide fade">
+              <figure>
+                <img src="otis-boykin-215x300.jpg" alt="Picture of Otis Boykin working at CTS Corp" >
+                <figcaption>Otis Boykin at CTS Corp. in 1958 (Image from CTS Corp.)</figcaption>
+              </figure>
+            </div>
+            <div class="slide fade">
+              <figure>
+                <img src="dr-james-e-west.png" alt="Dr. James E. West, inventor of the foil electret microphone." >
+                <figcaption>Dr. James E. West, inventor of the foil electret microphone.</figcaption>
+              </figure>
+            </div>
+            <div class="slide fade">
+              <figure>
+                <img src="ValerieThomas-LandsatImageProcessing.png" alt="Picture of Valerie Thomas" >
+                <figcaption>Valerie Thomas in 1979 standing with a stack of early Landsat Computer Compatible Tapes (CCTs). Thomas was responsible for the development of early Landsat digital media formatting.</figcaption>
+              </figure>
+            </div>
+            <div class="slide fade">
+              <figure>
+                <img src="lisa-gelobter.png" alt="Picture of Lisa Gelobter" >
+                <figcaption>Lisa Gelobter: Computer scientist who played a key role in the development of web animation technologies.</figcaption>
+              </figure>
+            </div>
+            
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            
+          </div>
+        
+
+        <section id="mission-statement">
+          <h2>Mission Statement</h2>
+          <p>
+            Our mission is to educate, inspire, and honor the legacy of Black innovators in technology. By shedding light on their contributions, we aim to provide a deeper understanding of their impact on modern computing and software development.
+          </p>
+          <p>
+            We believe that representation matters—highlighting these stories fosters a greater appreciation for diversity in STEM and encourages future generations to pursue careers in technology. Through this platform, we strive to create a resource for learning, exploration, and empowerment.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright &copy; 2025 The Hidden History of Black Tech. All rights reserved.</p>
+        <div id="contact-form">
+          <p>See something missing? Click here, we'd love to hear your feedback!</p>
+          <button id="contact-btn">Contact Us</button>
+
+          <div id="form-container" style="display:none;">
+            <form id="feedback-form" action="https://formspree.io/f/xrbeorwj" method="post" accept-charset="UTF-8" >
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <button type="submit">Submit Feedback</button>
+            </form>
+          </div>
+          </div>
+      </footer>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="finalprojectscript.js"></script>
+  </body>
+</html>
+
+
